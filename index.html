@@ -1,70 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MISR TRAVELS</title>
+    <title>Form</title>
 </head>
-<body style="background-color: #10202f;">
-    <h1 style="color: #8a7415;">MISR TRAVELS</h1>
-    <h3 style="color: whitesmoke;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, eum sunt inventore quia in eligendi.</h3>
-    <table style="background-color: #3c5889;">
-        <tbody>
-            <tr>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo1.jpeg" alt="" width="274">
-                </td>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo2.jpeg" alt=""  width="274">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo3.jpeg" alt="" width="274">
-                </td>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo4.jpeg" alt="" width="274">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo5.jpeg" alt="" width="274">
-                </td>
-                <td>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Natus quo eos est, itaque sequi velit, rem vero maiores suscipit tempore eveniet <br>
-                      nihil in perferendis eius sed enim doloremque expedita voluptatum?
-                </td>
-                <td>
-                    <img src="imgs/photo6.jpeg" alt="" width="274">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+<body>
+    <fieldset style="background-color: #EAC696;height: 95vh;">
+        <legend style="background-color: #765827;">
+            <b>Personal Data</b>
+        </legend>
+        <br>
+        <form action="" method="post">
+            <fieldset style="background-color: #65451F;">
+                <legend style="background-color: #C8AE7D;">
+                    <br><br>
+                    <b>YourName</b>
+                    <br><br><br>
+                </legend>
+                <br><br>
+                <table>
+                    <tr>
+                        <td>
+                            <label>
+                                first name
+                            </label>
+                        </td>
+                        <td> : </td>
+                        <td>
+                            <input type="text" name="firstname" id="" placeholder="ex.Safaa">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                second name 
+                            </label>
+                        </td>
+                        <td> : </td>
+                        <td>
+                            <input type="text" name="secname" id="" placeholder="ex.Ehab">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br><br><br>
+            <table>
+                <tr>
+                    <td>
+                        <label>
+                            <b>your phone</b>
+                        </label>
+                    </td>
+                    <td>
+                        <b> : </b>
+                    </td>
+                    <td>
+                        <input type="text" name="phone" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <b>Email</b>
+                        </label>
+                    </td>
+                    <td>
+                        <b> : </b>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <b>password</b>
+                        </label>
+                    </td>
+                    <td>
+                        <b> : </b>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <b>re-password</b>
+                        </label>
+                    </td>
+                    <td>
+                        <b> : </b>
+                    </td>
+                    <td>
+                        <input type="password" name="re-password" id="">
+                    </td>
+                </tr>
+            </table>
+            <br><br><br>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" name="male" id="male" value="male">
+                    </td>
+                    <td>
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="male" id="female" value="female"></td>
+                    <td><label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="work" id="student" value="student">
+                    </td>
+                    <td>
+                        <label for="student">Student</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="work" id="graduated" value="graduated">
+                    </td>
+                    <td>
+                        <label for="graduated">Graduated</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="faculty" id="">
+                            <optgroup label="faculty">
+                                <option value="auc">AUC</option>
+                                <option value="ail">AIL</option>
+                                <option value="emc">EMC</option>
+                            </optgroup>
+                            <optgroup label="Work">
+                                <option value="eng">Eng</option>
+                                <option value="doc">DOC</option>
+                                <option value="prog">PROG</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" style="background-color: #765827;">
+                            <b>Submit</b>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
 </body>
+
 </html>
